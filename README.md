@@ -23,22 +23,26 @@ URL: http://localhost:3333/train
 
 **URL**: http://localhost:3333/predictArray
 **Body**: location[ ]
+
 Returns location array with predicted satisfaction score.
 
 ---
 
 **URL**: http://localhost:3333/predict
 **Body**: location
+
 Returns predicted satisfaction score for single location
 
 ## Without Neural Network
 
 **URL**: http://localhost:3333/scoreArray
 **Body**: location[ ]
+
 Returns location array with fixed calculated satisfaction score.
 
 ---
 
 **URL**: http://localhost:3333/score
 **Body**: location
+
 Returns calculated satisfaction score for single location
